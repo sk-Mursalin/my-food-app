@@ -1,11 +1,15 @@
 {
     "builds": [
       {
-        "src": "app.js",
+        "src": "public/app.js",
+        "use": "@vercel/static"
+      },
+      {
+        "src": "public/app.css",
         "use": "@vercel/static"
       }
     ],
     "rewrites": [
-      { "source": "/", "destination": "/app.html" }
+      { "source": "/", "destination": "/public/app.html" }
     ]
   }
