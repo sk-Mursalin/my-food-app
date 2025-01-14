@@ -1,0 +1,151 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities{
+    @media(max-width:888px){
+        .body{
+            @apply grid-cols-3 px-1;
+        }
+    }
+    @media(max-width:680px){
+        .body{
+            @apply grid-cols-2 pl-8 gap-x-3;
+        }
+    }
+    @media(max-width:492px){
+        .body{
+            @apply grid-cols-1 pl-3 gap-x-3;
+        }
+        .card{
+            @apply max-w-[392px];
+        }
+    }
+    @media(max-width:444px){
+        .input-section{
+            @apply flex-col self-start;
+        }
+    }
+    @media(max-width:650px){
+        .nav{
+            @apply hidden;
+        }
+       
+    }
+    @media(max-width:920px){
+        .shimmer{
+            @apply grid-cols-3;
+        }
+    }
+    @media(max-width:650px){
+        .shimmer{
+            @apply grid-cols-2;
+        }
+    }
+    @media(max-width:432px){
+        .shimmer{
+            @apply grid-cols-1;
+        }
+        .shimmer-card{
+            @apply max-w-[350px] ml-2;
+        }
+    }
+    @media(max-width:850px){
+        .about{
+            @apply flex-col items-center  gap-7;
+        }
+        .about-content{
+            @apply w-full;
+        }
+        .text-size{
+            @apply text-4xl
+        }
+        .text-size2{
+            @apply text-2xl w-[230px]
+        }
+    }
+    @media(max-width:720px){
+        .contact{
+            @apply flex-col items-center px-4;
+        }
+    }
+    @media(max-width:480px){
+        .menu-header--text{
+            @apply text-2xl
+        }
+    }
+
+    @media(max-width:444px){
+        .sla{
+            @apply flex-col
+        }
+        .content-width{
+            @apply w-[250px]
+        }
+        .image{
+            @apply mt-5;
+        }
+    }
+
+    @media(max-width:444px){
+        .menu-header--text{
+            @apply text-xl
+        }
+    }
+    @media(max-width:344px){
+        .image{
+            @apply mt-9;
+        }
+    }
+    @media(max-width:888px){
+        .cart-container{
+            @apply max-w-2xl
+        }
+        .left-width{
+            @apply w-3/6
+        }
+        .right-width{
+            @apply w-2/6
+        }
+        .add-btn{
+            @apply left-14;
+        }
+        .remove-btn{
+            @apply left-10;
+        }
+    }
+    @media(max-width:664px){
+        .cart-container{
+            @apply max-w-lg
+        }
+        .left-width{
+            @apply w-3/6
+        }
+        .right-width{
+            @apply w-2/6
+        }
+        .add-btn{
+            @apply left-9;
+        }
+        .remove-btn{
+            @apply left-5
+        }
+    }
+    @media(max-width:500px){
+        .cart-container{
+            @apply max-w-sm
+        }
+        .left-width{
+            @apply w-3/6
+        }
+        .right-width{
+            @apply w-2/6
+        }
+        .add-btn{
+            @apply left-4;
+        }
+        .remove-btn{
+            @apply left-0
+        }
+    }
+}

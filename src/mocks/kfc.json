@@ -1,0 +1,88 @@
+
+{
+    "info": {
+        "id": "565580",
+        "name": "KFC",
+        "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/12/9/d2e6497c-c00e-47ce-8fcb-e0e3617a9d7b_565580.JPG",
+        "locality": "Sealdah",
+        "areaName": "Esplanade",
+        "costForTwo": "₹400 for two",
+        "cuisines": [
+            "Fast Food",
+            "Burgers",
+            "Rolls & Wraps"
+        ],
+        "avgRating": 4.4,
+        "parentId": "547",
+        "avgRatingString": "4.4",
+        "totalRatingsString": "3.8K+",
+        "sla": {
+            "deliveryTime": 30,
+            "lastMileTravel": 1.8,
+            "serviceability": "SERVICEABLE",
+            "slaString": "30-35 mins",
+            "lastMileTravelString": "1.8 km",
+            "iconType": "ICON_TYPE_EMPTY"
+        },
+        "availability": {
+            "nextCloseTime": "2025-01-14 03:00:00",
+            "opened": true
+        },
+        "badges": {
+            "imageBadges": [
+                {
+                    "imageId": "Rxawards/_CATEGORY-Burger.png",
+                    "description": "Delivery!"
+                }
+            ]
+        },
+        "isOpen": true,
+        "type": "F",
+        "badgesV2": {
+            "entityBadges": {
+                "imageBased": {
+                    "badgeObject": [
+                        {
+                            "attributes": {
+                                "description": "Delivery!",
+                                "imageId": "Rxawards/_CATEGORY-Burger.png"
+                            }
+                        }
+                    ]
+                },
+                "textBased": {},
+                "textExtendedBadges": {}
+            }
+        },
+        "aggregatedDiscountInfoV3": {
+            "header": "ITEMS",
+            "subHeader": "AT ₹79"
+        },
+        "differentiatedUi": {
+            "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+            "differentiatedUiMediaDetails": {
+                "lottie": {},
+                "video": {}
+            }
+        },
+        "reviewsSummary": {},
+        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        "restaurantOfferPresentationInfo": {},
+        "externalRatings": {
+            "aggregatedRating": {
+                "rating": "4.1",
+                "ratingCount": "957"
+            },
+            "source": "GOOGLE",
+            "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+        },
+        "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+    },
+    "analytics": {
+        "context": "seo-data-54b081e8-bb03-4435-b7c6-48a6e23f1b5a"
+    },
+    "cta": {
+        "link": "https://www.swiggy.com/city/kolkata/kfc-sealdah-esplanade-rest565580",
+        "type": "WEBLINK"
+    }
+}
