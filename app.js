@@ -1,16 +1,17 @@
 import React, { lazy, Suspense } from "react";
 import ReactDOM from "react-dom/client";
-import Header from "../src/component/Header";
-import Body from "../src/component/Body";
-import Contact from "../src/component/Contact";
-import Cart from "../src/component/Cart";
-import ResMenu from "../src/component/ResMenu";
-import Error from "../src/component/Error";
+
+import Body from "./src/component/Body";
+import Contact from "./src/component/Contact";
+import Cart from "./src/component/Cart";
+import ResMenu from "./src/component/ResMenu";
+import Error from "./src/component/Error";
 import { createBrowserRouter, Outlet, RouterProvider } from "react-router-dom";
 import { Provider } from "react-redux";
-import myStore from "../src/utils/myStore";
-import LoginPage from "../src/component/LoginPage";
-import Sidebar from "../src/component/Sidebar";
+import myStore from "./src/utils/myStore";
+import LoginPage from "./src/component/LoginPage";
+import Sidebar from "./src/component/Sidebar";
+import Header from "./src/component/Header";
 const root = ReactDOM.createRoot(document.querySelector("#root"));
 
 
@@ -18,7 +19,7 @@ const AppLayout = () => {
     return (
         <Provider store={myStore}>
             <div>
-                <Header />
+               <Header/>
                 <Outlet />
                 <Sidebar/>
             </div>
@@ -26,7 +27,7 @@ const AppLayout = () => {
 
     )
 }
-const About = lazy(() => import("../src/component/About"))
+const About = lazy(() => import("./src/component/About"))
 const appRouter = createBrowserRouter([
     {
         path: "/",
