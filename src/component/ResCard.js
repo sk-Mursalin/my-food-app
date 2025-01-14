@@ -5,7 +5,7 @@ const ResCard = (props) => {
     const { avgRating, costForTwo, name, sla, cuisines, cloudinaryImageId } = aboutRes.info;
 
     return (
-        <div className="max-w-60 border py-2 px-2 rounded-md cursor-pointer bg-gray-200 hover:shadow-lg transition-all hover:bg-gray-100 card">
+        <div className="max-w-60 border py-2 px-2 rounded-md cursor-pointer bg-gray-200 hover:shadow-lg transition-all hover:bg-gray-100 card hover:scale-105">
             <div className="h-40">
                 <img src={IMAGE_CDN_LINK + cloudinaryImageId} className="w-full h-full  rounded-lg" />
             </div>

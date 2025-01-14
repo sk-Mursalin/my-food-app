@@ -30,7 +30,9 @@
         .nav{
             @apply hidden;
         }
-       
+        .hamburger-menu{
+            @apply block;
+        }
     }
     @media(max-width:920px){
         .shimmer{

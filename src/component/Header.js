@@ -28,7 +28,7 @@ const Header = ()=>{
                     <Link to={"/login"}>{logStatus}</Link></button>
                     {/* <button onClick={sidebarClose}>click</button> */}
                 </div>
-                <FontAwesomeIcon icon={faBars} onClick={openMenu} className="text-xl text-slate-500 cursor-pointer"  />
+                <FontAwesomeIcon icon={faBars} onClick={openMenu} className="text-xl text-slate-500 cursor-pointer hidden hamburger-menu"/>
             </nav>
         </header>
     );
