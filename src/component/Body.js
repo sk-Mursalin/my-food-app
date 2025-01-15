@@ -7,7 +7,6 @@ import { Link } from "react-router-dom";
 
 const Body = () => { 
     const [ApiAllData, setApiAllData,filterRes,setFilterRes] = useMainApiCall();
-    console.log(ApiAllData);
     const [searchInput, setSearchInput] = useState("");
     return ApiAllData == null ? <ShimmerUi /> : (
         <div>

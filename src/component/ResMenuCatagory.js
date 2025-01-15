@@ -4,7 +4,6 @@ import { useState } from "react";
 const ResMenuCatagory = (props) => {
     const { title, itemCards } = props?.data
     const[accorDian,setAccorDian] = useState(false)
-     console.log(accorDian)
     
     return (
         <div className="py-4 px-2 mt-3 bg-white cart-container">

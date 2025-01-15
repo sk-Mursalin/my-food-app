@@ -5,7 +5,6 @@ import { addItem } from "../utils/cartSlice";
 const MenuList = (props) => {
     const { name, price,description, imageId } = props.data;
     const {info}= props.data2?.card;
-    console.log(info)
     const dispatch = useDispatch();
     function addToCart(){
         dispatch(addItem(info))

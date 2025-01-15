@@ -7,10 +7,8 @@ import MenuShimmer from "./MenuShimmer";
 const ResMenu = () => {
     const { resId } = useParams();
     const headerData = useMenuApi(resId);
-    console.log(headerData)
     if(headerData == null) return <MenuShimmer/>
     const menuData = headerData.data?.cards?.[4]?.groupedCard?.cardGroupMap?.REGULAR?.cards.filter((el)=>{return el?.card?.card?.["@type"] == "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory"});
-    console.log(menuData)
     return (
         <div>
             <div className="bg-slate-950 py-4 px-4">

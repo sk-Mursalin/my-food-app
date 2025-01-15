@@ -3,7 +3,6 @@ import { IMAGE_CDN_LINK } from "../utils/constant";
 import { clearCart, removeOneItem } from "../utils/cartSlice";
 const Cart = () => {
     const item = useSelector((store) => store.cart.items);
-    console.log(item)
      const dispatch = useDispatch();
     function clearItem(){
         dispatch(clearCart());

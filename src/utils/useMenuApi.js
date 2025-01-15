@@ -10,7 +10,6 @@ const useMenuApi = (resId)=>{
     async function menuApiCall(){
         const response = await  fetch(MENU_API+resId+"&catalog_qa=undefined&submitAction=ENTER");
         const data = await response.json();
-        console.log(data);
         setMenuApiData(data);
     }
     return menuApiData;

@@ -7,7 +7,6 @@ import { sidebarHide } from '../utils/sidebarSlice';
 const Sidebar = () => {
     const cartLength = useSelector((store) => store.cart.items);
     const sidebarStatus = useSelector((store) => store.sidebar.isOpen);
-    console.log(sidebarStatus);
     const dispatch = useDispatch();
     function sidebarClose(){
         dispatch(sidebarHide())
